@@ -225,3 +225,9 @@ input, textarea { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid 
         visibility: visible;
     }
 }
+.hamburger-btn {
+    color: #ff0000; /* Isko temporary red ya koi bright color dein */
+    font-size: 30px; /* Size bada karein taaki saaf dikhe */
+    width: auto;
+    height: auto;
+}
