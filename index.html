@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecozonmax | Sustainable Packaging Solutions</title>
+    <meta name="description" content="Ecozonmax Blindbrand (OPC) Private Limited - Leading provider of sustainable and eco-friendly packaging solutions.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">ECOZON<span>MAX</span></div>
+        <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="index.html#products">Products</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="contact.html">Contact</a></li>
+</ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1>Go Green with <span>Sustainable Packaging</span></h1>
+            <p>Ecozonmax Blindbrand (OPC) Private Limited - Making the planet better, one package at a time.</p>
+            <a href="#products" class="btn">Explore Products</a>
+        </div>
+    </header>
+
+    <section id="products" class="products">
+        <h2 class="section-title">Our Eco-Solutions</h2>
+        <div class="product-grid">
+            <div class="product-card" data-aos="zoom-in">
+                <div class="product-img" style="background-image: url('ecozonmax_01.jpg');"></div>
+                <h3>Premium Paper Bags</h3>
+                <p>Biodegradable and stylish for retail.</p>
+            </div>
+            <div class="product-card" data-aos="zoom-in" data-aos-delay="100">
+                <div class="product-img" style="background-image: url('ecozonmax_02.png');"></div>
+                <h3>Durable Jute Bags</h3>
+                <p>Strong, reusable, and 100% organic.</p>
+            </div>
+            <div class="product-card" data-aos="zoom-in" data-aos-delay="200">
+                <div class="product-img" style="background-image: url('ecozonmax_03.png');"></div>
+                <h3>Custom Packaging</h3>
+                <p>Tailored solutions for your brand identity.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="footer-container">
+            <div class="info" data-aos="fade-right">
+                <h3>Contact Us</h3>
+                <p><strong>Add:</strong> Vill: Sukahara, Po: Dhawani, Ps: Karakat (Gorari)-802214</p>
+                <p><strong>Email:</strong> subhashk802214@gmail.com</p>
+                <p><strong>Mob:</strong> +91 9204767525, 7667939899</p>
+            </div>
+            <div class="footer-info">
+                <h3>Quick Links</h3>
+                <p><a href="privacy.html" style="color:white; text-decoration:none;">Privacy Policy</a></p>
+                <p><a href="terms.html" style="color:white; text-decoration:none;">Terms of Service</a></p>
+                <p><a href="mission.html" style="color:white; text-decoration:none;">Sustainable Mission</a></p>
+            </div>
+        </div>
+        <p class="copy">© 2026 ECOZONMAX BLINDBRAND (OPC) PVT LTD. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000, once: true });
+    </script>
+    <div class="fab-wrapper">
+    <div class="fab-options">
+        <div class="fab-opt" onclick="togglePopup('formPopup')">
+            <i class="fas fa-file-signature"></i> <span>Enquiry</span>
+        </div>
+        <div class="fab-opt" onclick="togglePopup('faqPopup')">
+            <i class="fas fa-question"></i> <span>FAQ</span>
+        </div>
+        <a href="https://wa.me/919204767525" class="fab-opt wa-color" target="_blank">
+            <i class="fab fa-whatsapp"></i> <span>WhatsApp</span>
+        </a>
+    </div>
+    <div class="fab-main">
+        <i class="fas fa-plus"></i>
+    </div>
+</div>
+
+<div id="formPopup" class="floating-popup" style="display:none;">
+    <div class="popup-content">
+        <span class="close-p" onclick="togglePopup('formPopup')">&times;</span>
+        <h3 style="color:#27ae60; margin-bottom:15px;">Quick Enquiry</h3>
+        <form id="enquiryForm">
+            <input type="text" placeholder="Your Name" required style="width:100%; margin:10px 0; padding:8px;">
+            <input type="tel" placeholder="Mobile Number" required style="width:100%; margin:10px 0; padding:8px;">
+            <textarea placeholder="Your Requirement" style="width:100%; margin:10px 0; padding:8px; height:80px;"></textarea>
+            <button type="submit" class="btn" style="width:100%; cursor:pointer;">Send Enquiry</button>
+        </form>
+    </div>
+</div>
+
+<div id="faqPopup" class="floating-popup" style="display:none;">
+    <div class="popup-content">
+        <span class="close-p" onclick="togglePopup('faqPopup')">&times;</span>
+        <h3 style="color:#27ae60; margin-bottom:15px;">Common Questions</h3>
+        <div class="faq-item" style="text-align:left; border-bottom:1px solid #eee; padding:10px 0;">
+            <strong>Q: Minimum Order kya hai?</strong>
+            <p>A: Hum 500 units se kam orders bhi lete hain.</p>
+        </div>
+        <div class="faq-item" style="text-align:left; padding:10px 0;">
+            <strong>Q: Delivery kitne din mein hogi?</strong>
+            <p>A: Bihar mein 3-5 din aur bahar 7 din tak.</p>
+        </div>
+    </div>
+</div>
+<script>
+    // Isse window object par set kar dete hain taaki HTML ise kahin se bhi dhoondh le
+    window.togglePopup = function(id) {
+        var popup = document.getElementById(id);
+        if (popup) {
+            var isHidden = (popup.style.display === "none" || popup.style.display === "");
+            
+            // Sab band karo
+            var all = document.getElementsByClassName('floating-popup');
+            for(var i=0; i<all.length; i++) { all[i].style.display = "none"; }
+            
+            // Target kholo
+            if (isHidden) {
+                popup.style.display = "flex";
+            }
+        } else {
+            console.error("Bhai, Popup ID nahi mili: " + id);
+        }
+    };
+</script>
+</body>
+</html>
