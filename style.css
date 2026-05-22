@@ -213,3 +213,15 @@ input, textarea { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid 
     position: absolute; top: 10px; right: 20px;
     font-size: 28px; cursor: pointer; color: #333;
 }
+/* Shuruat mein (Desktop par) hamburger chhupa hona chahiye */
+.hamburger-btn {
+    display: none;
+}
+
+/* Mobile screen par (Under 768px) hamburger dikhna chahiye */
+@media (max-width: 768px) {
+    .hamburger-btn {
+        display: block !important; /* !important lagakar check karein */
+        visibility: visible;
+    }
+}
